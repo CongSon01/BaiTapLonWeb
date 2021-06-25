@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Đăng nhập Admin</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/styleLogin.css">
+</head>
+
+<body>
+	<div class="inf-pass" id="getPass">
+		<h3>Lấy tài khoản mật khẩu tại đây</h3>
+	</div>
+	<div id="showPass" class="showPass">
+		<div>
+			<label for="username">UserName:</label>
+			<span class="showp">CongSon</span>
+		</div>
+		<div>
+			<label for="username">Password:</label>
+			<span class="showp">123456</span>
+		</div>
+	</div>
+	<div class="main">
+		<h1 class="label">Đăng nhập Admin</h1>
+		<div class="login_form" id="form" name="form">
+			<div class="font">Tài khoản</div>
+			<input type="text" name="username" id="username">
+			<div id="username_error">Tài khoản không tồn tại</div>
+			<div class="font font2">Password</div>
+			<input type="password" name="password" id="password">
+			<div id="pass_error">Mật khẩu không chính xác</div>
+			<a href="./admin.html"><button id="btn-submit">Login</button></a>
+		</div>
+	</div>
+	<!-- <script src="/js/login.js"></script> -->
+</body>
+
+</html>

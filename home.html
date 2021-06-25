@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Trang chủ</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./fontawesome/css/all.min.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+
+<body>
+	<!-- <div id="loader">
+		<img src="./img/loading.gif" alt="loading">
+	</div> -->
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous"
+		src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0&appId=858139728373074&autoLogAppEvents=1"
+		nonce="C0GNFgNu"></script>
+	
+	<!-- <div class="main"> -->
+	<!-- <div class="load-html" id="Header" data-source="./header.html"></div> -->
+	<div class="header">
+		<div class="header-left">
+			<a href="#">Khoa Công nghệ Thông tin - Trường Đại học Xây dựng</a>
+			<a href="#">Email: fit@nuce.edu.vn</a>
+		</div>
+
+		<div class="header-right">
+			<div class="admin">
+				<a href="./loginAdmin.html" target="_blank">Admin</a>
+			</div>
+			<div class="icon">
+				<a href="https://www.facebook.com/truongdhxaydung/"><i class="fab fa-facebook"></i></a>
+				<a href=""><i class="fab fa-google-plus-g"></i></a>
+				<a href=""><i class="fas fa-print"></i></a>
+			</div>
+		</div>
+	</div>
+	<div class="navbar sticky" id="navbarID">
+		<!-- Nav PC -->
+
+		<div class="nav_pc">
+			<div class="logo">
+				<a class="navbar-brand" href="./home.html">
+					<div class="nav_img">
+						<img src="./img/logoFIT.png" alt="LogoFit" height="50">
+					</div>
+				</a>
+			</div>
+			<div class="list">
+				<ul class="nav_list">
+					<li>
+						<a href="./home.html" class="nav_link">Trang chủ</a>
+					</li>
+					<li>
+						<a href="./detail.html" class="nav_link">Giới thiệu</a>
+					</li>
+					<li class="dropdown">
+						<a href="./caterory.html" class="nav_link">Cơ cấu tổ chức</a>
+						<div class="dropdown-content">
+							<a class="dropdown-item" href="./detail.html">
+								Blog</a>
+							<a class="dropdown-item" href="./detail.html">
+								Điểm cá nhân</a>
+							<a class="dropdown-item" href="./detail.html">
+								Viết bài</a>
+						</div>
+					</li>
+					<li>
+						<a href="./caterory.html" class="nav_link">Tin tức</a>
+					</li>
+					<li>
+						<a href="./home.html" class="nav_link">Liên hệ</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<label for="nav_mobile_input" class="nav_bars_btn">
+			<i class="fas fa-bars"></i>
+		</label>
+
+		<input type="checkbox" name="" class="nav_input" id="nav_mobile_input">
+
+		<label for="nav_mobile_input" class="nav_overlay"></label>
+
+		<div class="nav_mobile">
+			<label for="nav_mobile_input" class="nav_close">
+				<i class="fas fa-times"></i>
+			</label>
+			<ul class="nav_mobile_list">
+				<li>
+					<a href="./home.html" class="nav_link">Trang chủ</a>
+				</li>
+				<li>
+					<a href="./detail.html" class="nav_link">Giới thiệu</a>
+				</li>
+				<li>
+					<a href="./caterory.html" class="nav_link">Cơ cấu tổ chức</a>
+				</li>
+				<li>
+					<a href="./detail.html" class="nav_link">Tin tức</a>
+				</li>
+				<li>
+					<a href="./home.html" class="nav_link">Liên hệ</a>
+				</li>
+				<li>
+					<a href="./loginAdmin.html">Admin</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="fix-contact">
+		<div class="i-facebook">
+			<a target="_blank"
+				href="https://www.facebook.com/dialog/share?app_id=140586622674265&display=popup&href=http%3A%2F%2Ftuyensinh.nuce.edu.vn%2Ftuyen-sinh%23.YNVgSx5TubU.facebook&redirect_uri=http%3A%2F%2Fs7.addthis.com%2Fstatic%2Fthankyou.html"><i
+					class="fab fa-facebook-f"></i></a>
+		</div>
+
+		<div class="i-google">
+			<a href=""><i class="fab fa-google-plus-g"></i></a>
+		</div>
+
+		<div class="i-print">
+			<a href=""><i class="fas fa-print"></i></a>
+		</div>
+	</div>
+	<div class="CSSgal">
+
+		<!-- Don't wrap targets in parent -->
+		<s id="s1"></s>
+		<s id="s2"></s>
+		<s id="s3"></s>
+		<s id="s4"></s>
+
+		<div class="slider">
+			<div style="background-image:url('./img/tuyensinh.jpg');">
+				<div class="txt">
+					<h1>Chuyên trang tuyển sinh 2021</h1>
+					<p>Các thông tin thí sinh cần biết về tuyển sinh các chương trình đào tạo của <br>
+						trường Đại Học Xây Dựng. </p>
+					<!-- <br> -->
+					<a href="#">XEM THÊM</a>
+				</div>
+			</div>
+			<div style="background-image:url('./img/silder.jpg');">
+				<div class="txt">
+					<h1>ĐỀ ÁN TUYỂN SINH TRÌNH ĐỘ ĐẠI HỌC NĂM 2021 </h1>
+					<p>1. Đề án tuyển sinh trình độ đại học năm 2021 </p>
+					<p>2. Phụ lục kèm theo Đề án tuyển sinh trình độ đại học năm 2021</p>
+					<!-- <br> -->
+					<a href="#">XEM THÊM</a>
+				</div>
+			</div>
+			<div style="background-image:url('./img/tuyensinh.jpg');">
+				<div class="txt">
+					<h1>Chuyên trang tuyển sinh 2021</h1>
+					<p>Các thông tin thí sinh cần biết về tuyển sinh các chương trình đào tạo của <br>
+						trường Đại Học Xây Dựng. </p>
+					<!-- <br> -->
+					<a href="#">XEM THÊM</a>
+				</div>
+			</div>
+			<div style="background-image:url('./img/silder.jpg');">
+				<div class="txt">
+					<h1>ĐỀ ÁN TUYỂN SINH TRÌNH ĐỘ ĐẠI HỌC NĂM 2021 </h1>
+					<p>1. Đề án tuyển sinh trình độ đại học năm 2021 </p>
+					<p>2. Phụ lục kèm theo Đề án tuyển sinh trình độ đại học năm 2021</p>
+					<!-- <br> -->
+					<a href="#">XEM THÊM</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="prevNext">
+			<div><a href="#s4">4</a><a href="#s2">2</a></div>
+			<div><a href="#s1">1</a><a href="#s3">3</a></div>
+			<div><a href="#s2">2</a><a href="#s4">4</a></div>
+			<div><a href="#s3">3</a><a href="#s1">1</a></div>
+		</div>
+
+		<div class="bullets">
+			<a href="#s1">1</a>
+			<a href="#s2">2</a>
+			<a href="#s3">3</a>
+			<a href="#s4">4</a>
+		</div>
+
+	</div>
+	<!-- <div class="slider">
+			<div class="color_silder"></div>
+			<div class="myslide active">
+				<div class="txt">
+					<h1>Chuyên trang <br>tuyển sinh <br> 2021</h1>
+					<p>Các thông tin thí sinh cần biết <br>về tuyển sinh các chương trình<br> đào tạo của Viện…</p>
+					<a href="#">XEM THÊM</a>
+				</div>
+				<img src="img/tuyensinh.jpg">
+			</div>
+			<div class="myslide fade">
+				<div class="txt">
+					<h1>Chuyên trang <br>tuyển sinh <br> 2021</h1>
+					<p>Các thông tin thí sinh cần biết <br>về tuyển sinh các chương trình<br> đào tạo của Viện…</p>
+					<a href="#">XEM THÊM</a>
+				</div>
+				<img src="img/silder2.jpg">
+			</div>
+			<div class="myslide fade">
+				<div class="txt">
+					<h1>Chuyên trang <br>tuyển sinh <br> 2021</h1>
+					<p>Các thông tin thí sinh cần biết <br>về tuyển sinh các chương trình<br> đào tạo của Viện…</p>
+					<a href="#">XEM THÊM</a>
+				</div>
+				<img src="img/silder1.jpg">
+			</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			
+			<div class="dotsbox" style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+			/onclick js -->
+	</div>
+	<div class="container">
+		<div class="about row">
+			<div class="txt-about col-pc-6 col-ipad-12 col-phone-12">
+				<div class="mu-title">
+					<h2>GIỚI THIỆU VỀ KHOA</h2>
+				</div>
+				<!-- End Title -->
+
+				<p> La noi de sinh vien de dang trao doi kien thuc, hoc tap
+					giang vien de dang connect voi giang vien</p>
+				<ul>
+					<li>Phòng tin học đã phục vụ đắc lực trong hội thi giáo án điện tử cấp Quận và chương trình học
+						Intel.</li>
+					<li>Đã có nhiều học sinh đăng ký tham dự cuộc thi sáng tạo dành cho thanh thiếu niên nhi đồng.</li>
+				</ul>
+			</div>
+			<div class="col-pc-6 col-ipad-12 col-phone-12">
+				<div class="image-about">
+					<img src="./img/gioithieu.jpg" alt="informationLab">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="news">
+		<div class="container">
+			<div class="news-title">
+				<h2>Tin tức và sự kiện</h2>
+			</div>
+			<div class="row">
+				<div class="col-news col-pc-3 col-ipad-5 col-phone-11">
+					<div class="image-news">
+						<img src="./img/css.jpg" alt="css">
+						<div class="summary">
+							Chỉ tiêu tuyển sinh: 250
+							Tổ hợp các môn xét tuyển: A00, A01,
+							D07, Tổ hợp môn xét tuyển kỳ thi
+						</div>
+					</div>
+					<div class="title-post-news">
+						Khởi động muc trao giải...
+					</div>
+					<div class="txt-more">
+						<a href="./detail.html">Xem chi tiết</a>
+					</div>
+				</div>
+				<div class="col-news col-pc-3 col-ipad-5 col-phone-11">
+					<div class="image-news">
+						<img src="./img/css.jpg" alt="css">
+						<div class="summary">
+							Chỉ tiêu tuyển sinh: 250
+							Tổ hợp các môn xét tuyển: A00, A01,
+							D07, Tổ hợp môn xét tuyển kỳ thi
+						</div>
+					</div>
+					<div class="title-post-news">
+						Khởi động muc trao giải...
+					</div>
+					<div class="txt-more">
+						<a href="./detail.html">Xem chi tiết</a>
+					</div>
+				</div>
+				<div class="col-news col-pc-3 col-ipad-5 col-phone-11">
+					<div class="image-news">
+						<img src="./img/css.jpg" alt="css">
+						<div class="summary">
+							Chỉ tiêu tuyển sinh: 250
+							Tổ hợp các môn xét tuyển: A00, A01,
+							D07, Tổ hợp môn xét tuyển kỳ thi
+						</div>
+					</div>
+					<div class="title-post-news">
+						Khởi động muc trao giải...
+					</div>
+					<div class="txt-more">
+						<a href="./detail.html">Xem chi tiết</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="counter">
+		<div class="title-img-coll">
+			<p>Đối tác</p>
+		</div>
+		<div class="row all-partner">
+			<div class="partner col-pc-2 col-ipad-3 col-phone-2"> <a target="black" href="https://www.nuce.edu.vn/"><img
+						src="./img/DoiTac1.png" alt=""></a> </div>
+			<div class="partner col-pc-2 col-ipad-3 col-phone-2"> <img src="./img/doitac2.png" alt=""> </div>
+			<div class="partner col-pc-2 col-ipad-3 col-phone-2"> <img src="./img/doitac3.png" alt=""> </div>
+			<div class="partner col-pc-2 col-ipad-3 col-phone-2"> <img src="./img/doitac4.png" alt=""> </div>
+			<div class="partner col-pc-2 col-ipad-3 col-phone-2"> <img src="./img/doitac5.jpg" alt=""> </div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="collection">
+			<div class="title-img-coll">
+				<p>Hình ảnh </p>
+				<p class="title-coll"> NUCE</p>
+			</div>
+			<input type="checkbox" class="tablefilter" name="class1" id="class1" checked />
+			<label for="class1">CƠ SỞ VẬT CHẤT</label>
+			<input type="checkbox" class="tablefilter" name="class2" id="class2" checked />
+			<label for="class2">HOẠT ĐỘNG SINH VIÊN</label>
+			<input type="checkbox" class="tablefilter" name="class3" id="class3" checked />
+			<label for="class3">DU HỌC SINH</label>
+			<!-- table -->
+			<table class="table filteredtable">
+				<!-- <thead>
+						<tr class="class1">
+							<td>Column 1</td>
+							<td>Column 2</td>
+							<td>Filtered Column</td>
+							<td>Column 3</td>
+						</tr>
+					</thead> -->
+				<tbody class="content-table">
+					<tr class="class1 content-coll">
+						<td>
+							<div class="scal-img"><img class="col-img" src="img/silder1.jpg" /></div>
+						</td>
+						<td>
+							<div class="scal-img"><img class="col-img" src="img/silder1.jpg" /></div>
+						</td>
+						<td>
+							<div class="scal-img"><img class="col-img" src="img/silder1.jpg" /></div>
+						</td>
+						<td>
+							<div class="scal-img"><img class="col-img" src="img/silder1.jpg" /></div>
+						</td>
+					</tr>
+					<tr class="class2 content-coll">
+						<td>
+							<div class="scal-img"><img class="col-img" src="img/silder2.jpg" /></div>
+						</td>
+						<td>
+							<div class="scal-img"><img class="col-img" src="img/silder2.jpg" /></div>
+						</td>
+						<td>
+							<div class="scal-img"><img class="col-img" src="img/silder2.jpg" /></div>
+						</td>
+						<td>
+							<div class="scal-img"><img class="col-img" src="img/silder2.jpg" /></div>
+						</td>
+					</tr>
+					<tr class="class3 content-coll">
+						<td>
+							<div class="scal-img"><img class="col-img" src="img/silder3.jpg" /></div>
+						</td>
+						<td>
+							<div class="scal-img"><img class="col-img" src="img/silder3.jpg" /></div>
+						</td>
+						<td>
+							<div class="scal-img"><img class="col-img" src="img/silder3.jpg" /></div>
+						</td>
+						<td>
+							<div class="scal-img"><img class="col-img" src="img/silder3.jpg" /></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<!-- <div class="content-coll row filteredtable table-bordered table-striped">
+					<img class="type2 all col-img col-pc-2 col-ipad-3 col-phone-2" src="img/silder2.jpg">
+					<img class="type1 all col-img col-pc-2 col-ipad-3 col-phone-2" src="img/silder1.jpg">
+					<img class="type2 all col-img col-pc-2 col-ipad-3 col-phone-2" src="img/silder2.jpg">
+					<img class="type3 all col-img col-pc-2 col-ipad-3 col-phone-2" src="img/silder3.jpg">
+					<img class="type1 all col-img col-pc-2 col-ipad-3 col-phone-2" src="img/silder1.jpg">
+					<img class="type2 all col-img col-pc-2 col-ipad-3 col-phone-2" src="img/silder2.jpg">
+					<img class="type3 all col-img col-pc-2 col-ipad-3 col-phone-2" src="img/silder3.jpg">
+					<img class="type1 all col-img col-pc-2 col-ipad-3 col-phone-2" src="img/silder1.jpg">
+					
+				</div> -->
+		</div>
+	</div>
+	<div class="contact">
+		<div class="row">
+			<div class="img-contact col-pc-6 col-ipad-6 col-phone-11">
+				<img src="img/Contact.png" alt="">
+			</div>
+			<div class="form-contact col-pc-5 col-ipad-5 col-phone-11">
+				<h2>Liên hệ</h2>
+				<div class="input-contact">
+					<input type="text" placeholder="Họ và tên">
+				</div>
+				<div class="input-contact">
+					<input type="email" placeholder="Email">
+				</div>
+				<div class="input-contact">
+					<input type="number" placeholder="Số điện thoại">
+				</div>
+				<div class="input-contact">
+					<textarea type="text" placeholder="Nội dung"></textarea>
+				</div>
+				<div class="btn-contact">
+					<button>Gửi</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="teacher">
+		<div class="title-img-coll">
+			Giảng viên quản lý
+		</div>
+		<div class="container row">
+			<div class="inf-teach col-ipad-3 col-pc-3 col-phone-3">
+				<div class="teacher-img">
+					<img class="img-fluid" src="https://via.placeholder.com/260x265" alt="teacher img">
+					<div class="overlay-teacher">
+						<div class="social">
+							<a href="#"><span class="fab fa-facebook-f"></span></a>
+							<a href="#"><span class="fas fa-phone-square-alt"></span></a>
+							<a href="#"><span class="fab fa-google-plus-g"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="teacher-content">
+					<h3>Thầy: Nguyễn Hải Dương</h3>
+					<i>Thạc sĩ, giảng viên</i>
+					<p>Giảng viên khoa công nghệ thông tin <br> Trường Đại học Xây Dựng.</p>
+				</div>
+			</div>
+			<div class="inf-teach col-ipad-3 col-pc-3 col-phone-3">
+				<div class="teacher-img">
+					<img class="img-fluid" src="https://via.placeholder.com/260x265" alt="teacher img">
+					<div class="overlay-teacher">
+						<div class="social">
+							<a href="#"><span class="fab fa-facebook-f"></span></a>
+							<a href="#"><span class="fas fa-phone-square-alt"></span></a>
+							<a href="#"><span class="fab fa-google-plus-g"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="teacher-content">
+					<h3>Thầy: Nguyễn Hải Dương</h3>
+					<i>Thạc sĩ, giảng viên</i>
+					<p>Giảng viên khoa công nghệ thông tin <br> Trường Đại học Xây Dựng.</p>
+				</div>
+			</div>
+			<div class="inf-teach col-ipad-3 col-pc-3 col-phone-3">
+				<div class="teacher-img">
+					<img class="img-fluid" src="https://via.placeholder.com/260x265" alt="teacher img">
+					<div class="overlay-teacher">
+						<div class="social">
+							<a href="#"><span class="fab fa-facebook-f"></span></a>
+							<a href="#"><span class="fas fa-phone-square-alt"></span></a>
+							<a href="#"><span class="fab fa-google-plus-g"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="teacher-content">
+					<h3>Thầy: Nguyễn Hải Dương</h3>
+					<i>Thạc sĩ, giảng viên</i>
+					<p>Giảng viên khoa công nghệ thông tin <br> Trường Đại học Xây Dựng.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="fb-comments " data-href="http://127.0.0.1:5500/home.html" data-width="100%" data-numposts="5"></div>
+	</div>
+
+	<div class="row footer">
+		<div class="footer-left col-pc-3 col-phone-5">
+			<h3>THÔNG TIN LIÊN HỆ</h3>
+			<p>Khoa Công nghệ Thông tin - Trường Đại học Xây dựng</p>
+			<p>Địa chỉ: P.410, Nhà A1, Trường Đại học Xây dựng.</p>
+			<p>Số 55 - Giải Phóng - Q.Hai Bà Trưng - Hà Nội.</p>
+			<p>Điện thoại: 024.38697940</p>
+			<p>Email: fit@nuce.edu.vn</p>
+		</div>
+		<div class="footer-center col-pc-3 col-phone-5">
+			<h3>Danh mục</h3>
+			<p>Trang chủ</p>
+			<p>Giới thiệu.</p>
+			<p>Cơ cấu tổ chức.</p>
+			<p>Tin tức</p>
+			<p>Liên hệ</p>
+		</div>
+		<div class="footer-right col-pc-3">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14898.934326625902!2d105.843321!3d21.003314!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x499b8b613889f78a!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBYw6J5IEThu7FuZw!5e0!3m2!1svi!2sus!4v1622190597832!5m2!1svi!2sus"
+				width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			<h3>Bản đồ Đại học Xây dựng</h3>
+		</div>
+	</div>
+	<label class="message">
+		<input type="checkbox"></i>
+		<div id="btn"><i class="fas fa-comment-dots"></i></div>
+		<div id="cnt">
+			<div class="header-mess">
+				<div class="close">X</div>
+				<br>
+				<div class="chao-mung">
+					Chào mừng bạn đã ghé thăm! Bạn cần thông tin gì về tuyển sinh Đại học chính quy năm 2021? Vui lòng
+					chat với chúng tôi nhé!
+				</div>
+			</div>
+
+			<div class="content-mess">
+				<div class="line-mess">
+					<div class="avatar"><img src="img/DoiTac1.png" alt=""></div>
+					<div class="tin-mess">Bạn cần thông tin gì về tuyển sinh Đại học chính quy năm 2021? Vui lòng chat
+						với chúng tôi nhé!</div>
+					<div class="time-mess">12:32</div>
+				</div>
+			</div>
+			<div class="input-mess">
+				<input type="text" placeholder="Gõ vào đây và enter">
+			</div>
+		</div>
+		<!-- <div class="close">X</div> -->
+	</label>
+
+</body>
+<script>
+	// var myVar;
+
+	// function myFunction() {
+	// myVar = setTimeout(showPage, 3000);
+	// }
+
+	// function showPage() {
+	// 	document.getElementById("loader").style.display = "none";
+	// }
+</script>
+
+</html>

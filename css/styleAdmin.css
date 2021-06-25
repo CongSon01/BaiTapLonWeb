@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: none !important;
+    border:none;
+    position: relative;
+    box-sizing: border-box;
+}
+.main{
+    background-color: #e7e7e7b8;
+    position: relative;
+}
+.back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #9292926b;
+    z-index: 1000;
+}
+.alert {
+    z-index: 1000;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: auto;
+    padding: 0px 25px 25px 25px;
+    background-color: aqua;
+    border-radius: 15px;
+
+}
+.alert .title-alert {
+    display: flex;
+    margin-top: 5px;
+    border-bottom: #e45a0a solid 2px;
+    padding: 10px;
+}
+.title-alert h1 {
+    font-size: 20px;
+    width: 90%;
+}
+span.close{
+    font-size: 15px;
+    width: 10%;
+    height: 100%;
+    border: #e45a0a solid 1px;
+    text-align: center;
+}
+span.close:hover {
+    background-color: #e45a0a;
+    cursor: pointer;
+}
+
+.content-alert {
+    padding: 15px;
+    font-size: 14px;
+}
+.header{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+}
+.admin-title {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: rgb(100, 100, 100) solid 1px;
+    background-color: #e45a0a;
+}
+.admin-title h1{
+    font-weight: bold;
+    color: #ffffff;
+}
+.content-header{
+    flex: auto;
+    text-align: center;
+    padding: 15px 0;
+}
+.content-header img{
+    width: 40px;
+    border-radius: 50%;
+}
+.content-header p{
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.content-header #idp{
+    color: blue;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-left{
+    flex: 20%;
+    background-color: #404040;
+    height: 1000px;
+    text-align: center;
+    border-top:  rgb(100, 100, 100) solid 1px;
+    color: #e4e4e4b0;
+}
+
+.content-left li {
+    list-style-type: none;
+    width: 90%;
+    border-bottom: 1px solid #fff;
+    padding: 15px;
+    margin: 5%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.content-left li:hover {
+    color: #e45a0a;
+    cursor: pointer;
+}
+.content-right{
+    flex: 80%;
+}
+.content-right img {
+    width: 100%;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/styleAdmin.css">
+
+</head>
+
+<body>
+   <div class="main">
+      <div id="back" class="back"></div>
+      <div id="alert" class="alert">
+         <div class="title-alert">
+            <h1>Thông báo</h1>
+            <span id="close" class="close">
+               <i>&times</i>
+            </span>
+         </div>
+         <div class="content-alert">
+            Trang này hiện đang <b>bảo trì.</b>
+            <br>
+            Vui lòng quay lại <b><a href="./home.html">trang chủ.</a></b>
+         </div>
+      </div>
+      <div class="header">
+         <div class="admin-title">
+            <h1>Admin</h1>
+         </div>
+         <div class="content-header">
+            <img src="./img/avatar.jpg" alt="">
+            <p><span> Xin chào </span> <span id="idp">Thầy </span> <span> đến với trang admin</span></p>
+
+         </div>
+      </div>
+      <div class="container">
+         <div class="content-left">
+            <ul>
+               <li>Thêm bài viết</li>
+               <li>Sửa bài viết</li>
+               <li>Xóa bài viết</li>
+               <li>Admin</li>
+            </ul>
+         </div>
+         <div class="content-right">
+            <img src="img/img404.png" alt="">
+         </div>
+      </div>
+   </div>
+</body>
+<!-- <script type="text/javascript">
+   function getCookie(cname) {
+   var name = cname + "=";
+   var decodedCookie = decodeURIComponent(document.cookie);
+   var ca = decodedCookie.split(';');
+   for(var i = 0; i <ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+         c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+         return c.substring(name.length, c.length);
+      }
+   }
+   return '';
+}
+var idname = document.getElementById("idp");
+console.log(idname);
+  var username = getCookie("username");
+   if (username) {
+    //   alert("Hello " + username);
+    idname.innerHTML = username;
+   } else {
+    window.location.href = '/loginAdmin.html';
+   }
+
+   var close = document.getElementById("close");
+   var idalert = document.getElementById("alert");
+   var back = document.getElementById("back");
+   idalert.onclick = function(event) {
+      idalert.style.display = "none";
+      back.style.display = "none";
+}
+
+</script> -->
+
+</html>
